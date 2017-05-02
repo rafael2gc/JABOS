@@ -50,6 +50,7 @@ if __name__ == '__main__':
     remote_conn.send("\n")
     remote_conn.send("configure terminal\n")
     remote_conn.send("default int GigabitEthernet1/0/38\n")
+	remote_conn.send("\n")
     remote_conn.send("exit\n")
     remote_conn.send("\n")
 
